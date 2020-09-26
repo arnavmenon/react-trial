@@ -9,17 +9,17 @@ class App extends Component {
     todos: [
       {
         id: 1,
-        title: "Kill me now",
+        title: "buy groceries",
         status: false,
       },
       {
         id: 2,
-        title: "yolo tmrw",
+        title: "take bath tmrw",
         status: false,
       },
       {
         id: 3,
-        title: "work it harder",
+        title: "work harder lmao",
         status: false,
       },
     ],
