@@ -6,8 +6,7 @@ export class TodoItem extends Component {
     return {
       textDecoration: this.props.todo.status ? "line-through" : "none",
       padding: "10px",
-      borderBottom: "1px #ccc dotted",
-      background: "#f4f4f4",
+      borderBottom: "1px black dotted",
     };
   };
 
@@ -39,9 +38,9 @@ TodoItem.propTypes = {
 };
 
 const btnstyle = {
-  background: "#ff0000",
+  background: "red",
   border: "none",
-  borderRadius: "50%",
+  borderRadius: "5px",
   padding: "3px 3px",
   cursor: "pointer",
   float: "right",
